@@ -8,7 +8,6 @@ frame.geometry('400x200')
 
 def printInput():
     inp = inputtxt.get(1.0, "end-1c")
-
     shortener = ps.Shortener()
 
     x = shortener.tinyurl.short(inp)
